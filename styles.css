@@ -25,7 +25,8 @@ text-align:center;
 
 .sej{
 display:flex;
-	justify-content:center
+	justify-content:center;
+	background-color:rgb(46, 204, 113);
 }
 h1{
 	text-align:center;
