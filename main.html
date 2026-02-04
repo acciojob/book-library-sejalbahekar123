@@ -4,47 +4,72 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+		body {
+		  background-color: #f8f8f8;
+		  font-family: Arial, sans-serif;
+		  padding: 20px;
+		}
+		.book-library{
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			background-color:#ffffff;
+			gap:50px;
+			h3{
+				background-color:#2ecc71;
+				text-align:center;
+			}
+		}
+		.book{
+			background-color:rgb(46, 204, 113);
+			img{
+				width:200px;
+			}
+			h1,div{
+				background-color:#F1F1F1;
+			}
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class='book-library'>
+		<h1>Book Library</h1>
+		<div class='book'>
+			<div>
+				<img src='https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg'>
+				<h2>Spy in the Amber</h2>
+				<p>By Manohar Malgonkar</p>
+				<h3>Rs. 299</h3>
+			</div>
+		</div>
+		<div class='book'>
+			<div>
+				<img src='https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg'>
+				<h2>Sacred Games</h2>
+				<p>by Vikram Chandra</p>
+				<h3>Rs. 199</h3>
+			</div>
+		</div>
+		<div class='book'>
+			<div>
+				<img src='https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg'>
+				<p>Byomkesh Bakshi</p>
+				<p>by Sharadindu Bandyopadhyay</p>
+				<h3>Rs. 249</h3>
+			</div>
+		</div>
+		
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
-<div class="book-library">
-<h1>Book Library</h1>
-	
-<div class="book">
-<div class="sej">
-<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" />
-</div>
-<h2>SPY IN THE AMBER</h2>
-<P class="author">By Manohar Malgonkar</P>
-
-<p class="price">Rs.299</p>
-</div>
-
-<div class="book">
-<div class="sej">
-<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" />
-</div>
-<h2>Sacred Games</h2>
-<p class="author">by Vikram Chandra</p>
-
-<p class="price">Rs.199</p>
-
-</div>
-<div class="book">	
-<div class="sej">
-	<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" />
-</div>
-<h2>BYOMKESH BAKSHI</h2>
-<p class="author">By Sharadindu Bandyopadhyay</p>
-
-<p class="price">Rs.249</p>
-</div>
-
-	
-</div>
 
 </body>
 
